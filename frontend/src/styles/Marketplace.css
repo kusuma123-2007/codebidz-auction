@@ -1,0 +1,70 @@
+.marketplace{
+  padding:40px;
+  background:#f5f6fa;
+  min-height:100vh;
+}
+
+.marketplace h2{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+.auction-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:25px;
+}
+
+.auction-card{
+  background:white;
+  padding:15px;
+  border-radius:10px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.1);
+  text-align:center;
+  transition:0.3s;
+}
+
+.auction-card:hover{
+  transform:translateY(-5px);
+}
+
+.auction-card img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+  border-radius:8px;
+}
+.timer{
+ color:#e74c3c;
+ font-weight:bold;
+ margin:10px 0;
+}
+
+.bid{
+  font-weight:bold;
+  margin-top:10px;
+}
+
+.bid-btn{
+  margin-top:10px;
+  padding:10px;
+  border:none;
+  background:#667eea;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.bid-btn:hover{
+  background:#5563c1;
+}
+.winner-badge{
+ color:green;
+ font-weight:bold;
+ margin-top:5px;
+}
+.winner{
+ color:#2ecc71;
+ font-weight:bold;
+ margin-top:10px;
+}
