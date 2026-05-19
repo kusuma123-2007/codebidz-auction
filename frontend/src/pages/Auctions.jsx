@@ -3,7 +3,7 @@ import API from "../services/api";
 import "../styles/Marketplace.css";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://auction-backend-09hk.onrender.com");
 
 function Auctions(){
 

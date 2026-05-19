@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api"
+  baseURL: "https://auction-backend-09hk.onrender.com/api"
 });
 
 export default API;
