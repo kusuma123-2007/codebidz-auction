@@ -15,7 +15,7 @@ function Register() {
 
   try {
 
-    await API.post("/auth/register",{
+    await API.post("https://auction-backend-09hk.onrender.com/api/auth/register",{
       name,
       email,
       password,
